@@ -1,0 +1,114 @@
+body {
+  background-color: #7c7c7cfe;
+  font-family: 'Courier New', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 50px;
+  margin: 0;
+}
+
+.container {
+  background-color: #9d9d9d;
+  padding: 100px 100px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.container:hover {
+  transform: scale(1.009);
+}
+
+input {
+  background-color: #eeeeee;
+  padding: 10px 10px;
+  border-radius: 5px;
+  border: 1px solid #000000;
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+button {
+  background-color: #45b39d;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 5px;
+  border-color: #000000;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+  border-width: 1px;
+}
+
+button:hover {
+  background-color: #207563;
+  transform: scale(1.05);
+}
+
+ul {
+  border-radius: 5px;
+  background-color: #cdcdcd;
+  padding: 2px 25px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  list-style: none;
+}
+
+.completed .tasktext {
+  background-color: #7bc28f; 
+  text-decoration: line-through;
+  color: #6b6b6b;
+  font-style: italic;
+}
+
+li {
+  background-color: #e5e5e5;
+  margin: 10px 0;
+  padding: 10px 15px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+li:hover {
+  transform: scale(1.015);
+}
+
+.icon-btn {
+  border: none;
+  background: transparent;
+  font-size: 18px;
+  margin-left: 8px;
+  transition: transform 0.2s ease;
+}
+
+.icon-btn:hover {
+  transform: scale(1.1);
+}
+
+.instruction-banner {
+  background-color: #d4d4d4;
+  padding: 10px 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  font-weight: bold;
+  color: #555;
+  transition: transform 0.3s ease;
+}
+.instruction-banner:hover {
+  transform: scale(1.025);
+}
+
+h1 {
+  text-align: center;
+  color: #2e4053;
+}
+
+span {
+  display: flex;
+}
